@@ -20,8 +20,7 @@ python manage.py runserver
 Add Video of The Project
 <!-- ![Project](https://github.com/abhaykrishnanmn/crs/assets/75512915/e6bcb6a4-ad48-4e8d-b33c-ce46a9829187) -->
 
-<!-- ## Production ##
-
-https://railway.app/
+# Production 
+https://campus-placement-with-prediction-production.up.railway.app/
 
 
