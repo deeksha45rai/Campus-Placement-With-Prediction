@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ##  Serve on localhost:8000 ##
 
-python manage.py runserver.
+python manage.py runserver   
 
 ## Working ##
 Add Video of The Project
