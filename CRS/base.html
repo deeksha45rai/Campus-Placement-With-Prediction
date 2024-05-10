@@ -57,6 +57,12 @@
                     <p>Registered Drives</p>
                   </div>
                 </a>
+                <a href="/home" onclick="handleSidebar()" class="side-menu regdriveclass">
+                    <div class="side-menu-item">
+                      <i class="far fa-calendar-check"></i>
+                      <p>Mock Test</p>
+                    </div>
+                  </a>
                 {% endif %}
                 
                 {% if user.profile.isCordinator %}
@@ -80,12 +86,7 @@
                       <p>Profile</p>
                     </div>
                 </a>
-                <a href="http://127.0.0.1:8001/" onclick="handleSidebar()" class="side-menu profileclass">
-                    <div class="side-menu-item">
-                      <i class="far fa-calendar-check"></i>
-                      <p>Attempt Mock Test</p>
-                    </div>
-                </a>
+                
               </div>
 
           </div>
