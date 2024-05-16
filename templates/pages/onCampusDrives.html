@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-Campus Drives</title>
+    <link rel="stylesheet" href="/static/drives.css">
+    <link rel="stylesheet" href="/static/coordinator.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="drives_main_container">
+        <span>On Campus Drives</span>
+        <div class="drive_flex_wrapper">
+            <div class="drives_container" style="margin-right:50px; margin-left:60px">
+                <!-- Replace the Django template for loop with static drive items -->
+                <div class="drive_item">
+                    <div class="drive_img"><img src="{% static 'images/1.jpg' %}" alt="Drives"></div>
+                   
+                    <div class="drive_contents">
+                        <div class="drive_name">Wipro</div>
+                        <div class="drive_desc">Software Engineer</div>
+                        <div class="drive_price">4LPA</div>
+                        <div class="reg_button">
+                            <a href="/regdrive/1" style="text-decoration:none"><button>Details &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+                <!-- Repeat the above drive item structure for each drive -->
+
+                <div class="drives_container" style="margin-right:50px; margin-left:60px">
+                  <!-- Replace the Django template for loop with static drive items -->
+                  <div class="drive_item">
+                      <div class="drive_img"><img src="{% static 'images/photo.png' %}" alt="Drives"></div>
+                     
+                      <div class="drive_contents">
+                          <div class="drive_name">Infosys</div>
+                          <div class="drive_desc">QA Engineer</div>
+                          <div class="drive_price">3.6LPA</div>
+                          <div class="reg_button">
+                              <a href="/regdrive/1" style="text-decoration:none"><button>Details &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="drives_container" style="margin-right:50px; margin-left:60px">
+                  <!-- Replace the Django template for loop with static drive items -->
+                  <div class="drive_item">
+                      <div class="drive_img"><img src="{% static 'images/th.jpeg' %}" alt="Drives"></div>
+                     
+                      <div class="drive_contents">
+                          <div class="drive_name">UST Global</div>
+                          <div class="drive_desc">Testing Engineer</div>
+                          <div class="drive_price">6LPA</div>
+                          <div class="reg_button">
+                              <a href="/regdrive/1" style="text-decoration:none"><button>Details &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>
