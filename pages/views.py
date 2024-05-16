@@ -34,6 +34,7 @@ from django.utils.http import urlsafe_base64_encode
 from django.utils.http import urlsafe_base64_decode
 
 
+
 def placement_statistics_view(request):
     return render(request, 'pages/placement_statistics.html')
 

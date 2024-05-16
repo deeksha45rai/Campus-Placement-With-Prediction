@@ -8,10 +8,12 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+
     path('stats/', views.placement_statistics_view, name='placement_statistics'),
     path('companies/', views.companies_view, name='recruiting_ompanies'),
     path('offCampusDrives/', views.off_campus_drives_view, name='offCampusDrives'),
     path('onCampusDrives/', views.on_campus_drives_view, name='onCampusDrives'),
+
     path('home/', views.landing, name='landing'),
     path('main/', views.main, name='main'),
     path('login/', views.user_login, name='user_login'),
